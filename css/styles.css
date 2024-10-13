@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(115, 117, 137);
+  color: rgb(15, 15, 15);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+.form-control {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: rgb(0, 123, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+}
+
+.rate-card {
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.rate-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.rate-card p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.rate-card small {
+  font-size: 0.9rem;
+  color: rgb(102, 102, 102);
+}
+
+#result {
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.dropdown-menu {
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  padding: 1rem;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.dropdown-item {
+  color: rgb(51, 51, 51);
+  padding: 0.5rem;
+}
+.dropdown-item:hover {
+  background-color: rgb(248, 249, 250);
+}
+
+.currency-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#swapBtn {
+  background-color: rgb(248, 249, 250);
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  .form-control {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=styles.css.map */
